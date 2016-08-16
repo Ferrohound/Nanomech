@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>Swarm</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<canvas id="canvas" style="border:1px solid #000" align="right">zz</canvas>
+	 
+	<script src="Nano.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	//functions for emitting signals for the lobby and tutorial 
+	  var socket = io.connect('/');
+	  
+	  socket.on('onconnected', function(data){
+		console.log('connected successfully to the socket.io server. my server side ID is ' + data.id);
+	  });
+	</script>
+</body>
+</html>
