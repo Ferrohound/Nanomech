@@ -1,0 +1,12 @@
+{
+	"name": "NanoMachine",
+	"version": "0.0.1",
+	"description": "A game about global domination on a micro scale",
+	"dependencies": {},
+	"contributors":[
+	{
+		"name": "Ferrohound",
+		"email": "ferrohound@gmail.com"
+	}
+	]
+}
